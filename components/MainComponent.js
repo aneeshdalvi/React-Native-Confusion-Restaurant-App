@@ -10,6 +10,7 @@ import { Icon } from 'react-native-elements';
 import { connect } from 'react-redux';
 import { fetchDishes, fetchComments, fetchPromos, fetchLeaders } from '../redux/ActionCreators';
 
+
 const mapStateToProps = state => {
   return {
     dishes: state.dishes,
