@@ -30,25 +30,27 @@ function RenderDish(props) {
                     featuredTitle={dish.name}
                     image={{uri: baseUrl + dish.image}}
                 >
-                <Text style={{margin: 10}}>
-                    {dish.description}
-                </Text>
-                <Icon
-                    raised
-                    reverse
-                    name={ props.favorite ? 'heart' : 'heart-o'}
-                    type='font-awesome'
-                    color='#f50'
-                    onPress={() => props.favorite ? console.log('Already favorite') : props.onPress()}
-                />
-                <Icon
-                    raised
-                    reverse
-                    name="pencil"
-                    type="font-awesome"
-                    color="#512DA8"
-                    onPress={props.onPressAddComment}
-                />
+                    <Text style={{margin: 10}}>
+                        {dish.description}
+                    </Text>
+                    <View style={{ flexDirection: 'row', justifyContent : 'center'}}>
+                        <Icon
+                            raised
+                            reverse
+                            name={ props.favorite ? 'heart' : 'heart-o'}
+                            type='font-awesome'
+                            color='#f50'
+                            onPress={() => props.favorite ? console.log('Already favorite') : props.onPress()}
+                        />
+                        <Icon
+                            raised
+                            reverse
+                            name="pencil"
+                            type="font-awesome"
+                            color="#512DA8"
+                            onPress={props.onPressAddComment}
+                        />
+                    </View>
                 </Card>
             );
         }
