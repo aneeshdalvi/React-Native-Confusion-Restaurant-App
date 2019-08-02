@@ -3,9 +3,8 @@ import { Text, View, ScrollView, StyleSheet, Picker, Switch, Button, Modal, Aler
 import DatePicker from 'react-native-datepicker'
 import * as Animatable from 'react-native-animatable';
 import { Permissions, Notifications } from 'expo';  
-// import * as Permissions from 'expo-permissions'
 
-class Reservation extends Component {
+class Reservation extends Component { 
 
     constructor(props) {
         super(props);
@@ -48,6 +47,7 @@ class Reservation extends Component {
                 Alert.alert('Permission not granted to show notifications');
             }
         }
+        console.log(permission);
         return permission;
     }
 
