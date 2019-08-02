@@ -146,9 +146,7 @@ class RegisterTab extends Component {
                 this.processImage(capturedImage.uri);
             }
         }
-
     }
-
 
     processImage = async (imageUri) => {
         let processedImage = await ImageManipulator.manipulate(
