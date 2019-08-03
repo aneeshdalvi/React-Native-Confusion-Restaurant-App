@@ -217,8 +217,8 @@
   "leaders": [
     {
       "id": 0,
-      "name": "Peter Pan",
-      "image": "images/alberto.png",
+      "name": "Aneesh Dalvi",
+      "image": "images/002.jpg",
       "designation": "Chief Epicurious Officer",
       "abbr": "CEO",
       "featured": false,
@@ -227,7 +227,7 @@
     {
       "id": 1,
       "name": "Dhanasekaran Witherspoon",
-      "image": "images/alberto.png",
+      "image": "images/001.jpg",
       "designation": "Chief Food Officer",
       "abbr": "CFO",
       "featured": false,
@@ -244,8 +244,8 @@
     },
     {
       "id": 3,
-      "name": "Alberto Somayya",
-      "image": "images/alberto.png",
+      "name": "Aneesh Dalvi",
+      "image": "images/002.jpg",
       "designation": "Executive Chef",
       "abbr": "EC",
       "featured": true,
